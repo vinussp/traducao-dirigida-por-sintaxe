@@ -24,6 +24,7 @@ public class Parser {
             throw new Error("syntax error");
         }
     }
+    
 
     void letStatement () {
         match(TokenType.LET);

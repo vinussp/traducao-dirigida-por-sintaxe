@@ -91,7 +91,7 @@ public class Scanner {
         TokenType type = keywords.get(id);
         if (type == null) type = TokenType.IDENT;
         return new Token(type, id);
-  }
+    }
 
     private boolean isAlpha(char c) {
         return (c >= 'a' && c <= 'z') ||
